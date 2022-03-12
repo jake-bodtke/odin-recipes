@@ -1,0 +1,21 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(252, 157, 41, 0.568);
+    padding: 10px;
+}
+
+
+h1 {
+    border-style: solid;
+    border-radius: 10px;
+}
+

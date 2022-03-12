@@ -4,21 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li>
-            <a href="recipes/wings.html" target="_blank">Chicken Wings</a>
-        </li>
-        <li>
-            <a href="recipes/eggs.html" target="_blank">Deviled Eggs</a>
-        </li>
-        <li>
-            <a href="recipes/crab.html" target="_blank">Crab Cakes</a>
-        </li>
+    
+<header>
+    <img src="images/header.jpeg" alt="A variety of spices">
+</header>
+
+    <main>
+        <h1>Odin Recipes</h1>
+        <h2>My personal favorite:</h2>
         
-    </ul>
+        <ul>
+            <li>
+                <a href="recipes/wings.html" target="_blank">Chicken Wings</a>
+            </li>
+            <hr>
+            <li>
+                <a href="recipes/eggs.html" target="_blank">Deviled Eggs</a>
+            </li>
+            <hr>
+            <li>
+                <a href="recipes/crab.html" target="_blank">Crab Cakes
+                </a>
+            </li>
+        </ul>
+        <nav>
+        <h3>Search for a different Recipe:</h3>
+        <form action="https://www.allrecipes.com/search/results/?search" target="_blank">
+            <input type="text" name="search">
+            <button><b>Search</b> allrecipes.com</button>
+        </form>
+        </nav>
+
+        <div id="">
+            
+            <label for="reviews">Let me know what you thought about my page:
+            </label>
+            <br>
+            <textarea name="reviews" id="reviews" cols="30" rows="10" placeholder="Type something here"></textarea>
+        
+            <button>Submit</button>
+        </div>
+    </main>
+<footer>
+    <p>&#174; Jake Bodtke</p>
+</footer>
 </body>
+
 </html>
