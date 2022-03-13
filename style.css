@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: rgba(252, 157, 41, 0.568);
+    background-color: rgba(252, 156, 39, 0.568);
     padding: 10px;
 }
 
@@ -19,3 +19,22 @@ h1 {
     border-radius: 10px;
 }
 
+ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 7px;
+}
+
+button:hover {
+   /* background-color: rgba(252, 156, 39, 0.568); */
+   /* text-decoration: underline; */
+   background-color: #000;
+   color: #fff;
+}
